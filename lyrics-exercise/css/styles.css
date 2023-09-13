@@ -1,0 +1,27 @@
+h1 {
+    font-family:cursive;
+    color:palevioletred;
+    font-size:100pt;
+    text-align:center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(216, 154, 175, 0.841);
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
