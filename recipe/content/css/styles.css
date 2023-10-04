@@ -1,0 +1,70 @@
+html {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-left: 10pt;
+    margin-right: 100pt;
+}
+
+h1{
+   font-size: 60pt;
+   font-weight: 800;
+   letter-spacing: 0.09em;
+}
+
+h2{
+    text-align: left;
+    font-size: 20pt;
+    margin-top: -40pt;
+}
+
+h3{
+    font-size: 20pt;
+    color:rgb(193, 8, 85);
+    text-align: left;
+}
+
+h4{
+    font-size: 17pt;
+    font-weight: 600pt;
+    margin-bottom: -10pt;
+
+}
+
+
+body{
+   display: grid;
+   align-items: center;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    column-gap: 5px;
+    background-color: rgb(205, 204, 204);
+}
+
+p {
+    margin-right: 300pt;
+    font-size: 16pt;
+}
+
+footer{ 
+    margin-top: 110pt;
+    text-align: center;
+    font-size: 12pt;
+
+}
+
+.add{
+    font-size: 12pt;
+    color: rgb(219, 65, 65);
+}
+
+.time{
+    font-size: 20pt;
+    font-style: italic;
+    background-color: rgba(226, 194, 153, 0.587);
+    display: block;
+    
+}
+
+.recipe{
+    display: flex;
+    width: 400px;
+    Height: 300px;
+}
