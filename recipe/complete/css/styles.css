@@ -1,0 +1,319 @@
+html {
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-left: 3%;
+    padding: 3%;
+}
+
+h1{
+   font-size: 60pt;
+   font-weight: 800;
+   letter-spacing: 0.09em;
+   text-align: center;
+   padding-bottom: 1px;
+}
+
+
+h2{
+    text-align: left;
+    font-size: 20pt;
+    margin-top: -40pt;
+}
+
+h3{
+    font-size: 20pt;
+    color:rgb(193, 8, 85);
+    text-align: left;
+}
+
+h4{
+    font-size: 17pt;
+    font-weight: 600pt;
+    margin-bottom: -10pt;
+
+}
+
+
+body{
+   display: grid;
+   align-items: center;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    column-gap: 5px;
+    background-color: rgb(195, 187, 179);
+}
+
+
+/*
+p {
+    font-size: 16pt;
+}
+*/
+
+.description{
+    text-align: left;
+    width: 100%;
+
+}
+
+footer{ 
+    margin-top: 110pt;
+    text-align: center;
+    font-size: 12pt;
+
+}
+
+.add{
+    font-size: 12pt;
+    color: rgb(219, 65, 65);
+}
+
+.time{
+    font-size: 20pt;
+    font-style: italic;
+    background-color: rgba(226, 194, 153, 0.587);
+    display: block;
+    width: 100%;
+    
+}
+
+
+
+.recipe img{
+    width: 130px;
+}
+
+.vertical-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 10px;
+
+}
+ 
+.text{
+    font-size: 15pt;
+}
+
+
+ 
+.images img{
+    width:172px;
+ } 
+ 
+
+
+ .ingredient-grid img{
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+
+ }
+
+.ingredient-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredient-grid > div{
+    
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 5px;
+
+}
+
+
+
+/* Mobile media queries*/
+
+@media (max-width:600px){
+    h1{
+        font-size: 25pt;
+        padding: 1%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:600px){
+    h2{
+        font-size: 15pt;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:600px){
+    .text{
+        width: 200px;
+        font-size: 10pt;
+    }
+}
+
+
+
+@media (max-width:600px){
+    .time{
+        font-size: 15pt;
+        text-align: left;
+    }
+}
+
+@media (max-width:600px){
+    .recipe {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width:600px){
+    .add {
+       font-size: 14px;
+    }
+}
+@media (max-width:600px){
+    .list-ingredients {
+       font-size: 13px;
+    }
+}
+
+@media (max-width:600px){
+    .tools p{
+       font-size: 16px;
+       margin-top: 20px;
+    }
+}
+
+
+@media (max-width:600px){
+    .reviews p {
+        font-size: 13pt;
+    }
+}
+
+@media (max-width :600px){
+    .ingredient-grid img{
+        width: 55px;
+}
+}
+
+@media (max-width:600px){
+    .addition {
+       font-size: 15px;
+       margin-bottom: 20px;
+    }
+}
+
+/* Desktop media queries*/
+
+@media (min-width: 600px) and (max-width: 840px){
+    h1{
+        font-size: 40pt;
+    }
+}
+
+@media (min-width:600px){
+    h2{
+        font-size: 18pt;
+    }
+}
+@media (min-width:830px){
+    h2{
+        font-size: 23pt;
+    }
+}
+
+
+@media (min-width: 600px){
+    .text{
+        width: 65%;
+    }
+}
+@media (min-width: 900px){
+    .text{
+        font-size: 16pt;
+    }
+}
+
+
+@media (min-width:600px){
+    .list-ingredients {
+       font-size: 16px;
+    }
+}
+
+@media (min-width:850px){
+    .list-ingredients {
+       font-size: 20px;
+    }
+}
+@media (min-width:600px){
+    .tools {
+       font-size: 20pt;
+    }
+}
+
+@media (min-width: 600px){
+    .steps{
+        font-size: 13pt;
+    }
+}
+@media (min-width:600px){
+    .addition {
+       font-size: 19px;
+       margin-bottom: 25px;
+    }
+}
+
+@media (min-width:850px){
+    .addition {
+       font-size: 23px;
+       margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 600px){
+    .recipe img{
+        width: 300px
+    }
+}
+
+@media (min-width: 850px){
+    .images img{
+        width: 230px;
+        padding-left:10%;
+    }
+}
+
+
+@media (min-width:850px){
+    .description-heading{
+        margin-top: -75px;
+    }
+}
+
+@media (min-width:895px){
+    .description-heading{
+        margin-top: -95px;
+    }
+}
+
+@media (min-width:900px) and (max-width:970px){
+    .description-heading{
+        margin-top: -45px;
+    }
+}
+
+@media (min-width: 600px){
+.ingredient-grid img {
+    width: 100px;
+    }
+}
+
+@media (min-width: 850px){
+    .ingredient-grid img {
+        width: 125px;
+        margin: 6px;
+        }
+    }
