@@ -1,0 +1,353 @@
+#btn_newyorker{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 34px 32px 66px 37px;
+    background-color: white;
+    border: 2px solid black;
+    z-index: 1;
+    color: black;
+    font-size: 23px;
+    font-family: 'Crimson Text', serif; 
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.newyorker_image {
+    width: 85px;
+    height: 54px;
+    object-fit: cover;
+    transition: all .5s;
+    z-index: 2;
+}
+
+#btn_newyorker:hover{
+    background-color: rgb(156, 153, 153);
+    transition: all 1s;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    border-color:  rgb(156, 153, 153);
+    
+}
+
+
+ #btn_newyorker:hover  .newyorker_image {
+    transform: translate(-50%, 0%) rotate(-45deg);
+ }
+
+
+#btn_mbg{
+    display: inline-block;
+    width: 236px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 55px 55px 55px 55px;
+    background-color: white;
+    color: rgb(79, 136, 79);
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+
+#btn_mbg:hover {
+	color: white;
+}
+
+#btn_mbg:hover .fa-leaf{
+    transform: translate(-200%, -100%) rotate(-45deg) scale(5) ;
+    transition: all .5s;
+}
+
+.fa-leaf{
+    transition: all .5s;
+}
+
+#btn_nike{
+    display:inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40pt;
+    margin-top: 50pt;
+    color: black;
+    position: relative;
+    transition: all 0.5s;
+
+}
+
+.nike_swoosh{
+    width: 0;
+    height: 0;
+    transition: all 0.5s;
+}
+
+
+#btn_nike:hover{
+    display:block;
+    color: rgb(234, 14, 14);
+    background-color: rgba(153, 152, 152, 0.181);
+    border-radius: 4px;
+    
+}
+
+#btn_nike:hover .nike_swoosh{
+    width: 100px;
+    height: 50px;
+}
+
+#btn_facebook{
+    display:inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-top: 50px;
+    transition: all 1s;
+    font-family: 'Mulish', sans-serif;
+    transition: all 1s;
+}
+
+.fa-brands.fa-facebook {
+    font-size: 118px;
+    transition: all 1s;
+}
+
+#btn_facebook .fa-facebook:hover {
+    border-radius: 100%;
+    animation-name: sway;
+    animation-duration: 1s;
+    transition: all 1s;
+    animation-iteration-count:inherit;
+
+}
+
+
+#btn_facebook span{
+    font-size: 30pt;
+    color: rgb(0, 129, 209);
+    transition: all .3s;
+}
+
+@keyframes sway {
+    from { transform: rotate(-6deg); }
+    30% { transform: rotate(5deg); }
+    60% { transform: rotate(-5deg); }
+
+}
+#btn_facebook:hover span{
+    font-size: 30pt;
+    color: rgb(0, 61, 99);
+    transition: all .3s;
+}
+
+#btn_harleydavidson{
+    font-family: 'League Gothic', sans-serif;
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 21px 32px 66px 37px;
+    background-color: black;
+    border: 5px solid rgb(246, 117, 37);
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    transition: all .5s;
+
+}
+
+#btn_harleydavidson:hover{
+    background-color: rgb(246, 117, 37);
+    font-size: 0pt;
+    transition: all .3s;
+    padding-bottom: 32%;
+    padding-top: 1%;
+}
+
+.harley_logo{
+    width: 0;
+    height: 0;
+    transition: all .5s;
+}
+
+#btn_harleydavidson:hover .harley_logo{
+    width: 100px;
+    height: 80px;
+}
+
+#btn_pastaria{
+    font-family: 'Dawning of a New Day', cursive;
+    color: rgb(255, 220, 154);
+    background-color: coral;
+    text-decoration: none;
+    display: inline-block;
+	height: 83px;
+	box-sizing: border-box;
+	border-radius: 54px;
+	margin: auto;
+	padding: 10px 30px 15px 30px;
+	font-size: 40px;
+    margin-top: 36%;
+    transition: all .5s;
+}
+
+#btn_pastaria:hover{
+    background-color: rgb(255, 220, 154);
+    color: coral;
+
+}
+
+#btn_pastaria .fa-utensils {
+    color: coral;
+    transition: all 0.5s;
+    font-size: 1px;
+}
+
+#btn_pastaria:hover .fa-utensils  {
+    font-size: 28pt;
+    color: coral;
+}
+
+#btn_colorrun{
+    display: block;
+    width: 250px;
+	height: 51px;
+	border-radius: 65%;
+	margin: auto;
+	margin-top: 88px;
+	padding-top: 16px;
+	 background-color: black;
+    text-decoration: none;
+	color: rgb(255, 124, 146);
+	text-align: center;
+	font-size: 23px;
+    font-weight: bold;
+	transition: all .5s;
+    box-shadow: 0 0 30px #750000;
+}
+
+
+#btn_colorrun:hover{
+    color: black;
+    box-shadow: 0 0 30px #ff0000;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d0e4f7+10,91487b+33,91ea0b+50,e0d253+63,87bcea+84,87bcea+84,dec5e8+96 */
+    background: linear-gradient(to right,  #d0e4f7 10%,#91487b 33%,#91ea0b 50%,#e0d253 63%,#87bcea 84%,#87bcea 84%,#dec5e8 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    animation: bounce;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: all .5s;
+}
+@keyframes bounce {
+    from { transform: translate3d(0, 0, 0);} 
+    to { transform: translate3d(0, -30px, 0);} 
+}
+
+#btn_tuckerallen{
+display:inline-block;
+    box-sizing: border-box;
+    padding: 1% 3% 2% 4%;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 33pt;
+    margin-top: 50pt;
+    color: black;
+    position: relative;
+    background-color: rgba(117, 117, 117, 0.244);
+    transition: all 0.5s;
+}
+
+#btn_tuckerallen span{
+    font-size: 15pt;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(117, 117, 117);
+    transition: all 0.5s;
+}
+
+#btn_tuckerallen:hover{
+    background-color: rgba(0, 0, 0, 0.498);
+    border-radius: 8%;
+    padding: 5%;
+    color: white;
+    transition: all 0.5s;
+}
+#btn_tuckerallen:hover span{
+    color: rgba(255, 255, 255, 0.804);
+    transition: all 0.5s;
+}
+
+#btn_mj{
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #173205;
+    text-decoration: none;
+    font-family: 'Satisfy', cursive;
+    transition: all .2s;
+    font-size: 30pt;
+}
+
+
+#btn_mj:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #173205;
+    transition: all .5s;
+}
+a#btn_mj:hover {
+    color: #92a187;
+}
+
+#btn_mj:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 6%;
+}
+
+a#btn_mj span {
+    position: relative;
+    z-index: 10;
+}
+
+#btn_oldnavy{
+    font-family: 'League Gothic', sans-serif;
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 36px 66px 37px;
+    background-color: rgb(12, 26, 72);
+    color: white;
+    font-size: 41px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 100%;
+    transition: all 1s;
+}
+
+
+#btn_oldnavy:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#87e0fd+0,002a6d+0,bed5db+99 */
+    background: linear-gradient(to right,  rgba(135,224,253,1) 0%,rgba(0,42,109,1) 0%,rgba(190,213,219,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    transition: all 1s;
+}
