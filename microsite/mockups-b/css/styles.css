@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.desktop_a img{
+    width: 400px; 
+    height: auto;
+}
+
+.mobile img{
+    width: 200px;
+}
