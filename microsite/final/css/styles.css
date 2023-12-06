@@ -367,7 +367,7 @@ footer{
     }
 
     #how-it-works h2{
-        font-size: 22pt;
+        font-size: 21pt;
     }
 
     .explore-map img{
@@ -579,10 +579,6 @@ footer{
         margin-bottom: 15px;
     }
 
-    .big_carousel{
-        width: 100%;
-        margin: 0;
-    }
 
     #sources img {
         width: 310px;
@@ -610,16 +606,14 @@ footer{
     }
 
     .farm-types img{
-        width: 48px;
+        width: 47px;
     }
 
     .farm-types li {
-        width: 65px;
-    }
-
-    .farm-types li {
-        margin-right: 15px;
+        margin-right: 13px;
         margin-bottom: 10px;
+        font-size: 10pt;
+        width: 51px;
     }
 
     .big_carousel {
@@ -631,10 +625,10 @@ footer{
     .navigation{
         height: 90px;
     }
-    .farm-types{
-        flex-wrap: nowrap;
-    }
+
 }
+
+
 @media ( max-width: 730){
     .navigation ul{
         margin-right: 36px;
@@ -650,6 +644,10 @@ footer{
 @media (max-width: 650px){
     .navigation ul{
         font-size: 17pt;
+    }
+
+    .farm-types li{
+        width: 70px;
     }
 
 }
@@ -720,7 +718,7 @@ footer{
         flex-wrap: wrap;
     }
     .farm-types li{
-        width: 50px;
+        width: 60px;
         font-size: 11pt;
     }
 
